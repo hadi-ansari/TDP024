@@ -86,3 +86,5 @@ async fn main() -> std::io::Result<()> {
 
     server.run().await
 }
+
+// systemfd --no-pid -s http::8070 -- cargo watch -x run
